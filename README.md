@@ -13,3 +13,6 @@ Componente não controlado -> Componente que não tem nenhum estado vínculado.
 
 ## useEffect
 Permite executar efeitos colaterais em componentes -> Quando você modifica algo e gera efeito em outra coisa.
+
+## useRef
+Retorna um objeto mutável com a propriedade .current(atual)
