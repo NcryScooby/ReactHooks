@@ -1,7 +1,6 @@
 ### React Hooks
 React Hooks -> Adicionas várias funcionalidades nos (componentes Funcionais -> Componentes baseados em funções).
 
-
 ## useState
 useState -> É um dos hooks mais utilizados, e um dos mais fáceis de ser aplicado. Estado é algo que é mutável, ou seja, ele pode ser alterado.
 
@@ -21,4 +20,7 @@ Retorna um objeto mutável com a propriedade .current(atual).
 Retorna um valor memoizado, retorna um valor em cache.
 
 ## useCallback
-Retorna uma função memoizada.
+Retorna uma função memoizada, armazena no cache e só renderiza se as propriedades forem alteradas, evitando renderização desnecessária.
+
+## useContext
+Permite uma comunicação mais fácil entre componentes distantes, assim como o Redux.
