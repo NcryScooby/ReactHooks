@@ -27,3 +27,6 @@ Permite uma comunicação mais fácil entre componentes distantes, assim como o 
 
 ## useReducer
 O reducer recebe o estado atual e recebe uma action. A action evolui o estado.
+
+## useMyHook
+Crie seu próprio Hook.
