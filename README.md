@@ -24,3 +24,6 @@ Retorna uma função memoizada, armazena no cache e só renderiza se as propried
 
 ## useContext
 Permite uma comunicação mais fácil entre componentes distantes, assim como o Redux.
+
+## useReducer
+O reducer recebe o estado atual e recebe uma action. A action evolui o estado.
